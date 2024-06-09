@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'BD Plakatbau' ;
+    src: url(bdplakatt.ttf)
+}
+
+@font-face {
+    font-family: 'Unitblock';
+    src: url(Unitblock-JpJma.ttf)
+}
+
+h1 {
+    font-family: 'BD Plakatbau' ;
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-family: 'BD Plakatbau';
+    font-size: 25pt ;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Unitblock';
+    color: white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
