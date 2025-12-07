@@ -1,0 +1,86 @@
+@font-face {
+	font-family: '90s font';
+	src: url(Fonts/that_old__90s_computer_font_by_thebitchisback420_ddbqpfn.ttf)
+}
+
+@font-face {
+	font-family: "IBM Plex Mono";
+	src: url(Fonts/IBMPlexMono-Regular.ttf);
+}
+body {
+	background-image: url("Images/black-pattern-texture-background-367100-pixahive.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+h1 {
+	font-family: '90s font';
+	font-size: 60px;
+	text-align: center;
+	color: #C3447A;
+	margin: 0;
+	padding-top: 22px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'IBM Plex Mono';
+	text-align: center;
+	color: lightblue;
+	font-size: 15px;
+	margin: 0px;
+	padding-top: 7px;
+}
+
+
+h3 {
+	font-family: 'IBM Plex Mono';
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h4 {
+	font-family: 'IBM Plex Mono';
+	text-align: center;
+	color: white;
+	font-size: 11.5px;
+	margin: 0;
+}
+
+table, th, td {
+	border: 3px solid lightslategray;
+	border-collapse: collapse;
+	background-color: rgb(17, 17, 17);
+}
+
+img {
+	padding: 0px;
+}
+
+
+a:link {
+	color: #C3447A;
+}
+
+*::selection {
+	background: #C3447A;
+	color: #ffffff;
+  }
+*::-moz-selection {
+	background: #C3447A;
+	color: #ffffff;
+  }
+*::-webkit-selection {
+	background: #C3447A;
+	color: #ffffff;
+  }
+
